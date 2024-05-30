@@ -1,0 +1,15 @@
+{
+  "name": "clicker",
+  "version": "1.0.0",
+  "description": "Ladingpage presentacion equipo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mkdir": "^0.0.2"
+  }
+}
