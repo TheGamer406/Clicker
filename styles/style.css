@@ -1,0 +1,81 @@
+/*estilo del body en general*/
+*{
+    font-family: monospace;
+}
+body{
+    background-color: #F6F4F4;
+}
+/*estilo del header como tal*/
+#nav-bar{
+    padding: 0px 10px 10px 100px;
+    display: flex;
+    align-items: center;
+    background: rgb(250,168,25);
+    background: linear-gradient(317deg, rgba(250,168,25,1) 0%, rgba(252,180,21,1) 30%, 
+        rgba(200,82,186,1) 66%, rgba(202,108,230,1) 100%);
+    border-radius:30px 5px 5px 100px;
+}
+/*estilo del div del nav-menu*/
+#etiquetas{
+    display: flex;
+    text-align: center;
+    margin: 3% 0%;
+}
+/*estilo que del div que ubica el logo*/
+#logo{
+    max-height: 60px;
+    margin: 0px 0px 0px 90px;
+}
+/*estilo del div que contiene los botones de las redes sociales*/
+#redes{
+    display: flex;
+    text-align: left;
+    margin: 0px 100px 0px auto;
+}
+/*Estilos del footer*/
+/*banda de arriba del footer*/
+#band-top{
+    background-color: #fc8815;
+    height: 15px; width: 100%;
+}
+/*banda de abajo del footer*/
+#band-down{
+    height: 35px; width: 100%;
+    color: white;
+    text-align: center;
+    padding: 2px 0px 10px 0px;
+    font-size: 16px;
+    background: linear-gradient(317deg, rgba(250,168,25,1) 0%, rgba(252,180,21,1) 30%, 
+        rgba(200,82,186,1) 66%, rgba(202,108,230,1) 100%);
+}
+/*El medio del footer (todo el contenido)*/
+#band-mid{
+    color: white;
+    background-color: #171616;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+/*Estilo cuadro maps redondeado*/
+#maps{
+    border-radius: 10px;
+}
+/* F = footer*/
+/*Seccion maps*/
+#F1{
+    font-weight: 700;
+    font-size: 16px;
+}
+/*Seccion redes sociales*/
+#F2{
+    height: 100%;
+}
+/*iconos redes sociales footer*/
+#netF{
+    margin: 10px 5px;
+}
+/*Seccion sobre nosotros footer*/
+#F3{
+    width:400px;
+    text-wrap:stable;
+}

@@ -1,0 +1,44 @@
+/*Paleta de colores*/
+ #noexist{
+    color: #221F1F;/*Para negros*/
+    color: #F6F4F4;/*Fondo blanco no blanco*/
+    color: #C852BA;
+    color: #CA6CE6;
+    color: #FAA819;
+    color: #FCB415;
+ }
+/*estilo base del menu de navegacion*/
+#nav-menu{
+    text-decoration: none; 
+    font-weight: 600;
+    font-size: 19px;
+    color:#221F1F;
+    margin: 0px 20px;
+}
+/*estilo del menu de navegacion con el evento hover*/
+#nav-menu:hover { 
+    font-weight: 700;
+    color: #F6F4F4;
+}
+/*estilo del menu con el evento active*/
+#nav-menu:active{
+    color:#FAA819;
+}
+/*Estilo de los botones de redes sociales*/
+#iredes{
+    margin: 0px 20px;
+}
+#nav-menuFooter{
+    text-decoration: none; 
+    font-weight: 600;
+    font-size: 19px;
+    color:#F6F4F4;
+    margin: 0px 20px;
+}
+#nav-menuFooter:active{
+    color:#d676f3;
+}
+#nav-menuFooter:hover { 
+    font-weight: 700;
+    color: #C852BA;
+}
