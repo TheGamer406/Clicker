@@ -29,11 +29,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-    
 #redes{
     margin-left: auto;
 }
-
 /*Estilos del footer*/
 footer{
     position: relative;
