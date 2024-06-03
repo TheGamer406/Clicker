@@ -7,38 +7,58 @@
     color: #FAA819;
     color: #FCB415;
  }
+
 /*estilo base del menu de navegacion*/
 #nav-menu{
     text-decoration: none; 
     font-weight: 600;
     font-size: 19px;
-    color:#221F1F;
     margin: 0px 20px;
 }
-/*estilo del menu de navegacion con el evento hover*/
-#nav-menu:hover { 
-    font-weight: 700;
-    color: #F6F4F4;
+/*estilo nav-menu header*/
+.etiquetas #nav-menu{
+    color:#221F1F;
 }
-/*estilo del menu con el evento active*/
-#nav-menu:active{
+.etiquetas #nav-menu:hover { 
+    font-weight: 700;
+    color: #ebebeb;
+}
+.etiquetas #nav-menu:active{
     color:#FAA819;
 }
+/*Estilos nav-menu footer*/
+.menuf #nav-menu{
+    color: #ebebeb;
+    opacity: 0.8;
+}
+.menuf #nav-menu:hover{
+    color: #fff;
+    opacity: 100%;
+}
+.menuf #nav-menu:active{
+    color:#CA6CE6;
+}
 /*Estilo de los botones de redes sociales*/
-#iredes{
-    margin: 0px 20px;
+.redesicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
 }
-#nav-menuFooter{
-    text-decoration: none; 
-    font-weight: 600;
-    font-size: 19px;
-    color:#F6F4F4;
-    margin: 0px 20px;
+.redesicon li {
+    list-style: none;
 }
-#nav-menuFooter:active{
-    color:#d676f3;
+.redesicon li a{
+    font-size: 2em;
+    color: #ebebeb;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
 }
-#nav-menuFooter:hover { 
-    font-weight: 700;
-    color: #C852BA;
+.redesicon li a:hover{
+    transform: translatey(-10px);
+}
+.redesicon li a:active{
+    color: #CA6CE6;
 }
