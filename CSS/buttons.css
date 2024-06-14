@@ -57,7 +57,7 @@
     transition: 0.5s;
 }
 .redesicon li a:hover{
-    transform: translatey(-10px);
+    transform: scale(1.3);
 }
 .redesicon li a:active{
     color: #CA6CE6;

@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clicker</title>
     <!--Icono de la pagina web-->
-    <link rel="icon" type="image/x-icon" href="/images/logos/Icon.png">
+    <link rel="icon" type="image/x-icon" href="/Image/logos/Icon.png">
     <!--hojas de estilo-->
-    <link href="styles/style.css" rel="stylesheet">
-    <link href="styles/buttons.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/buttons.css" rel="stylesheet">
+    <!--Estilo unico de la pagina-->
+    <link href="CSS/aboutus.css" rel="stylesheet">
     <!--Agregados de terceros-->
 
 </head>
@@ -24,7 +26,7 @@
         </div>
         <!--Cuadro del logo-->
         <div id="logoContainer">
-            <img id="logo" src="images/logos/logoEmp.webp" alt="Logo click | a un click del exito">
+            <img id="logo" src="Image/logos/logoEmp.webp" alt="Logo click | a un click del exito">
         </div>
         <!--Cuadro de redes sociales-->
         <div id="redes">
@@ -38,8 +40,25 @@
     </div>
 </header>
 <body>
-    <div id="container">
-        Hola equipo
+    <div class="container">
+        <div class="person">
+            <div class="box-image">
+                <img src="" alt="Imagen persona">
+            </div>
+            <div class="info">
+                <h1 class="name">persona</h1>
+                <h2 class="position"></h2>
+                <p class="description"></p>
+                <div class="redes">
+                    <ul class="redes-person">
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> </a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon>   </a></li>
+                        <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 <footer>
@@ -55,6 +74,9 @@
         <a id="nav-menu" href="#">Cotizar</a>
     </ul>
 </footer>
+<!--JavaScript funcionasmiento-->
+
+<!--LInk Para los iconos-->
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html> 

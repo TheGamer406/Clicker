@@ -1,0 +1,27 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 20px 60px;
+}
+.person{
+    min-width:100%;
+    display: flex;
+    padding: 20px 45px;
+    border-radius: 10px;
+    box-shadow: 8px 9px 20px rgb(255,255,255);
+}
+.box-image{
+    width: 300px; height: 480px; 
+    background-color: #FAA819;
+    margin: 10px;
+}
+.box-image img{
+    max-width:300; min-width: 300px; 
+    max-height: 480px; min-height: 480px;
+    background-color: blue;
+    position:relative;
+    right:-10px;
+    top:20px;
+}
