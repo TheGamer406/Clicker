@@ -1,5 +1,5 @@
 /*Paleta de colores*/
- #noexist{
+#noexist{
     color: #221F1F;/*Para negros*/
     color: #F6F4F4;/*Fondo blanco no blanco*/
     color: #C852BA;
@@ -9,39 +9,39 @@
  }
 
 /*estilo base del menu de navegacion*/
-#nav-menu{
+.nav-menu{
     text-decoration: none; 
     font-weight: 600;
     font-size: 19px;
     margin: 0px 20px;
 }
 /*estilo nav-menu header*/
-.etiquetas #nav-menu{
-    color:#221F1F;
+.etiquetas .nav-menu{
+    color:#ebebeb;
 }
-.etiquetas #nav-menu:hover { 
+.etiquetas .nav-menu:hover { 
     font-weight: 700;
-    color: #ebebeb;
-}
-.etiquetas #nav-menu:active{
     color:#FAA819;
 }
+.etiquetas .nav-menu:active{
+    color: #CA6CE6;
+}
 /*Estilos nav-menu footer*/
-.menuf #nav-menu{
+.menuf .nav-menu{
     color: #ebebeb;
     opacity: 0.8;
 }
-.menuf #nav-menu:hover{
+.menuf .nav-menu:hover{
     color: #fff;
     opacity: 100%;
 }
-.menuf #nav-menu:active{
+.menuf .nav-menu:active{
     color:#CA6CE6;
 }
 /*Estilo de los botones de redes sociales*/
 .redesicon{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     margin: 10px 0;
     flex-wrap: wrap;
