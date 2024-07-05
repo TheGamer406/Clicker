@@ -9,25 +9,27 @@
     <!--hojas de estilo-->
     <link href="CSS/style.css" rel="stylesheet">
     <link href="CSS/buttons.css" rel="stylesheet">
+    <!--Estilo unico de la pagina-->
+    <link href="CSS/aboutus.css" rel="stylesheet">
     <!--Agregados de terceros-->
 
 </head>
 <header>
     <!--div del menu de navegaciòn-->
-    <div id="nav-bar">
+    <div class="nav-bar">
         <!--div menu de navegacion-->
         <div class="etiquetas">
             <!--butones menu de navgacion-->
-            <a id="nav-menu" href="#">Nuestro equipo</a>
-            <a id="nav-menu" href="#">Nuestro Trabajo</a>
-            <a id="nav-menu" href="#">Cotizar</a>
+            <a class="nav-menu" href="#">Nuestro equipo</a>
+            <a class="nav-menu" href="#">Nuestro Trabajo</a>
+            <a class="nav-menu" href="#">Cotizar</a>
         </div>
         <!--Cuadro del logo-->
-        <div id="logoContainer">
-            <img id="logo" src="Image/logos/logoEmp.webp" alt="Logo click | a un click del exito">
+        <div class="logoContainer">
+            <img class="logo" src="Image/logos/logoEmp.webp" alt="Logo click | a un click del exito">
         </div>
         <!--Cuadro de redes sociales-->
-        <div id="redes">
+        <div class="redes">
             <ul class="redesicon">
                 <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> </a></li>
                 <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
@@ -38,8 +40,24 @@
     </div>
 </header>
 <body>
-    <div id="container">
-        Hola equipo
+
+        <div class="person">
+            <div class="box-image">
+                <img src="/Image/Recursos/imagen_persona_ejemplo.jpg" alt="Imagen persona">
+            </div>
+            <div class="info">
+                <h1 class="name">Nombre de ejemplo</h1>
+                <h2 class="position">Posicion de trabajo</h2>
+                <div class="line"></div>
+                <div class="des" id="description" data-nombre="Persona Ejemplo 1"></div>
+                <div>
+                    <ul class="redes-person">
+                        <li><a href="#"><ion-icon name="logo-github"></ion-icon>  </a></li>
+                        <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 <footer>
@@ -50,14 +68,14 @@
         <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
     </ul>
     <ul class="menuf">
-        <a id="nav-menu" href="#">Nuestro equipo</a>
-        <a id="nav-menu" href="#">Nuestro Trabajo</a>
-        <a id="nav-menu" href="#">Cotizar</a>
+        <a class="nav-menu" href="#">Nuestro equipo</a>
+        <a class="nav-menu" href="#">Nuestro Trabajo</a>
+        <a class="nav-menu" href="#">Cotizar</a>
     </ul>
 </footer>
 <!--JavaScript funcionasmiento-->
-    <!--JS para el form de cotizar-->
-    <script src="JS/cotizar.js"></script>
+    <!--JavaScript para cargar descripciones-->
+    <script src="JS/CargarDescripciones.js"></script>
 <!--LInk Para los iconos-->
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
