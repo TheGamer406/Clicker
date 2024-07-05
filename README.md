@@ -1,2 +1,1 @@
-# Clicker
-Proyecto de software 1 u cenfotec proyecto de la compañia clicker
+<h1 align="center"> Pokebattlles | by: Clicker</h1>
