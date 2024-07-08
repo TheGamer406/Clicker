@@ -1,0 +1,12 @@
+{
+    "personas": [
+        {
+            "nombre": "Persona Ejemplo 1",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "nombre":"Jose Murillo",
+            "descripcion": "jove"
+        }
+    ]
+}
