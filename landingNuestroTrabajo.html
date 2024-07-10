@@ -5,132 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clicker</title>
     <!--Icono de la pagina web-->
-    <link rel="icon" type="image/x-icon" href="/images/logos/Icon.png">
-    <!--hojas de estilo-->
-    <link href="styles/style.css" rel="stylesheet">
-    <link href="styles/buttons.css" rel="stylesheet">
-    <!--Agregados de tercero-->
-        <!--box icons-->
-            <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-</head>
-<header>
-    <!--div del menu de navegaciòn-->
-    <div id="nav-bar">
-        <!--div menu de navegacion-->
-        <div id="etiquetas">
-            <!--butones menu de navgacion-->
-            <a id="nav-menu" href="#">Nuestro equipo</a>
-            <a id="nav-menu" href="#">Nuestro Trabajo</a>
-            <a id="nav-menu" href="#">Cotizar</a>
-        </div>
-        <!--Cuadro del logo-->
-        <div>
-            <img id="logo" src="/images/logos/logoEmp.webp">
-        </div>
-        <!--Cuadro de redes sociales-->
-        <div id="redes">
-            <a href="facebook.com"  id="iredes"><box-icon id="net" size='md' type='logo' name='facebook-circle'></box-icon></a>
-            <a href="instagram.com" id="iredes"><box-icon id="net" size='md' type='logo' name='instagram-alt'></box-icon></a>
-            <a href="tiktok.com"    id="iredes"><box-icon id="net" size='md' type='logo' name='tiktok'></box-icon></a>
-        </div>
-    </div>
-</header>
-<body>
-    Esto es el body.
-</body>
-<footer>
-    <div id="band-top"></div>
-    <div id="band-mid">
-        <div id="F1">
-            <!--Mapa de google maps-->
-            <p>Ubicanos: </p>
-            <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.0308996927915!2d-84.06672232520735!3d9.931384590170504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3f13462cc7b%3A0x97219232a6ee2da8!2sUniversidad%20CENFOTEC!5e0!3m2!1ses!2scr!4v1717191851373!5m2!1ses!2scr" 
-                width="300" height="180" style="border:0;" allowfullscreen="" loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div id="F2">
-            <a href="facebook.com"  id="iredes"><box-icon id="net" size='md' color='#ffffff' type='logo' name='facebook-circle'></box-icon></a><br>
-            <a href="instagram.com" id="iredes"><box-icon id="net" size='md' color='#ffffff' type='logo' name='instagram-alt'></box-icon></a><br>
-            <a href="tiktok.com"    id="iredes"><box-icon id="net" size='md' color='#ffffff' type='logo' name='tiktok'></box-icon></a>
-        </div>
-        <div id="F3">
-            <h2>¿Que es clicker?</h2>
-            <p>       Nosotros somos un equipo de trabajo en la clase de proyecto de ingenieria dedicados al desarollo
-                web unido por la creacion de excelencia es sus desarollos y posisionamiento de empresasa en la web.
-            </p>
-        </div>
-        <div id="F4">
-            <ul>
-                <li><a id="nav-menuFooter" href="#">Nuestro equipo</a></li>
-                <li><a id="nav-menuFooter" href="#">Nuestro Trabajo</a></li>
-                <li><a id="nav-menuFooter" href="#">Cotizar</a></li>
-            </ul>
-        </div>
-    </div>
-    <div id="band-down">
-        <p>Creado por Clicker | Copyrigth 2024</p>
-    </div>
-</footer><!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clicker</title>
-    <!--Icono de la pagina web-->
     <link rel="icon" type="image/x-icon" href="/Image/logos/Icon.png">
-    <!--hojas de estilo-->
-    <link href="CSS/style.css" rel="stylesheet">
-    <link href="CSS/buttons.css" rel="stylesheet">
+    <!--hojas de estilos base-->
+    <link href="CSS/landingStyleBase.css" rel="stylesheet">
+    <link href="CSS/landingBotones.css" rel="stylesheet">
+    <!--Estilo unico de la pagina-->
+    <link href="CSS/landingNuestroEquipo.css" rel="stylesheet">
     <!--Agregados de terceros-->
 
 </head>
-<header>
-    <!--div del menu de navegaciòn-->
-    <div id="nav-bar">
-        <!--div menu de navegacion-->
-        <div class="etiquetas">
-            <!--butones menu de navgacion-->
-            <a id="nav-menu" href="#">Nuestro equipo</a>
-            <a id="nav-menu" href="#">Nuestro Trabajo</a>
-            <a id="nav-menu" href="#">Cotizar</a>
-        </div>
-        <!--Cuadro del logo-->
-        <div id="logoContainer">
-            <img id="logo" src="Image/logos/logoEmp.webp" alt="Logo click | a un click del exito">
-        </div>
-        <!--Cuadro de redes sociales-->
-        <div id="redes">
-            <ul class="redesicon">
-                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> </a></li>
-                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-                <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon>   </a></li>
-                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
-            </ul>
-        </div>
-    </div>
-</header>
 <body>
-    <div id="container">
-        Hola equipo
+    <header>
+        <!--div del menu de navegaciòn-->
+        <div class="nav-bar">
+            <!--div menu de navegacion-->
+            <div class="etiquetas">
+                <!--butones menu de navgacion-->
+                <a class="nav-menu" href="landingNuestroEquipo.html">Nuestro equipo</a>
+                <a class="nav-menu" href="#">Nuestro Trabajo</a>
+                <a class="nav-menu" href="landingCotizar.html">Cotizar</a>
+            </div>
+            <!--Cuadro del logo-->
+            <div class="logoContainer">
+                <img class="logo" src="IMAGE/logos/clickerLogoCompletoNegro.webp" alt="Logo click | a un click del exito">
+            </div>
+            <!--Cuadro de redes sociales-->
+            <div class="redes">
+                <ul class="redesicon">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> </a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon>   </a></li>
+                    <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <Img class="Office" src="IMAGE/fondos/clickerOficina.png" alt="oficina de clicker"></Img>
+    <div class="container">
+        <p>Nuestro Trabajo</p>
     </div>
+    <footer>
+        <ul class="redesicon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> </a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon>   </a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
+        </ul>
+        <ul class="menuf">
+            <a class="nav-menu" href="#">Nuestro equipo</a>
+            <a class="nav-menu" href="#">Nuestro Trabajo</a>
+            <a class="nav-menu" href="#">Cotizar</a>
+        </ul>
+    </footer>
+    <!--JavaScript funcionasmiento-->
+    <!--JavaScript para cargar descripciones-->
+        <script src="JS/cargarDescripcionesLandingPage.js"></script>
+    <!--LInk Para los iconos-->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-<footer>
-    <ul class="redesicon">
-        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> </a></li>
-        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-        <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon>   </a></li>
-        <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
-    </ul>
-    <ul class="menuf">
-        <a id="nav-menu" href="#">Nuestro equipo</a>
-        <a id="nav-menu" href="#">Nuestro Trabajo</a>
-        <a id="nav-menu" href="#">Cotizar</a>
-    </ul>
-</footer>
-<!--JavaScript funcionasmiento-->
-    <!--JS para el form de cotizar-->
-    <script src="JS/cotizar.js"></script>
-<!--LInk Para los iconos-->
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html> 

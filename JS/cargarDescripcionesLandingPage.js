@@ -47,7 +47,7 @@ window.onload = function() {
                     const a = document.createElement('a');
                     a.href = link;
                     a.target = "_blank";
-
+                    a.className ="redesIcon";
                     const ionIcon = document.createElement('ion-icon');
                     ionIcon.setAttribute('name', icon);
 

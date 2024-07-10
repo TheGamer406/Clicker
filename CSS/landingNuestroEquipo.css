@@ -2,20 +2,6 @@
     color: #ebebeb;
     font-size: 60;
 }
-.line{
-    width: 40%; height: 6px;
-    background-color: #ebebeb;
-    border-radius: 3px;
-    margin: 10px 0 30px 0;
-}
-.container{
-    flex:1;
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    padding: 20px 60px;
-}
 .divCuadroPersonaLanding{
     display: flex;
     height:auto;
@@ -35,6 +21,7 @@
     max-width:300; min-width: 300px; 
     max-height: 480px; min-height: 480px;
     transform: translateX(10px) translateY(20px);
+    z-index: 1;
 }
 .info{
     margin: 15px 30px;
@@ -67,11 +54,14 @@
 .redesPerson{
     display: flex;
     justify-content: flex-start;
+    position: relative;
+    bottom: 0px;
 }
 .redesPerson a{
-    color: transparent;
-    padding:5px;
-    background-color: white;  
+    font-size: 1.6em;
+    color: #fff;
+    padding: 4px 4px 2px 4px;
+    margin: 0 10px;
 }
 .redesPerson a:hover{
     transform: scale(1.5);
