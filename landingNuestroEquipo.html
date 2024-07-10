@@ -14,56 +14,61 @@
     <!--Agregados de terceros-->
 
 </head>
-<header>
-    <!--div del menu de navegaciòn-->
-    <div class="nav-bar">
-        <!--div menu de navegacion-->
-        <div class="etiquetas">
-            <!--butones menu de navgacion-->
-            <a class="nav-menu" href="#">Nuestro equipo</a>
-            <a class="nav-menu" href="#">Nuestro Trabajo</a>
-            <a class="nav-menu" href="#">Cotizar</a>
-        </div>
-        <!--Cuadro del logo-->
-        <div class="logoContainer">
-            <img class="logo" src="IMAGE/logos/clickerLogoCompletoNegro.webp" alt="Logo click | a un click del exito">
-        </div>
-        <!--Cuadro de redes sociales-->
-        <div class="redes">
-            <ul class="redesicon">
-                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> </a></li>
-                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-                <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon>   </a></li>
-                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
-            </ul>
-        </div>
-    </div>
-</header>
 <body>
+    <header>
+        <!--div del menu de navegaciòn-->
+        <div class="nav-bar">
+            <!--div menu de navegacion-->
+            <div class="etiquetas">
+                <!--butones menu de navgacion-->
+                <a class="nav-menu" href="#">Nuestro equipo</a>
+                <a class="nav-menu" href="#">Nuestro Trabajo</a>
+                <a class="nav-menu" href="#">Cotizar</a>
+            </div>
+            <!--Cuadro del logo-->
+            <div class="logoContainer">
+                <img class="logo" src="IMAGE/logos/clickerLogoCompletoNegro.webp" alt="Logo click | a un click del exito">
+            </div>
+            <!--Cuadro de redes sociales-->
+            <div class="redes">
+                <ul class="redesicon">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> </a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon>   </a></li>
+                    <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
     <Img class="Office" src="IMAGE/fondos/clickerOficina.png" alt="oficina de clicker"></Img>
     <div class="container">
         <h1 class="page-title">Nuestro Equipo</h1>
         <div class="line"></div>
-        <!--Cuadros de la personas-->
-        <div class="divCuadroPersonaLanding" id="person" data-nombre="Persona Ejemplo 1" onload=""></div></div>
-</body>
-<footer>
-    <ul class="redesicon">
-        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> </a></li>
-        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-        <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon>   </a></li>
-        <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
-    </ul>
-    <ul class="menuf">
-        <a class="nav-menu" href="#">Nuestro equipo</a>
-        <a class="nav-menu" href="#">Nuestro Trabajo</a>
-        <a class="nav-menu" href="#">Cotizar</a>
-    </ul>
-</footer>
-<!--JavaScript funcionasmiento-->
+        <!--Cuadros de la personas-->.box-image img{
+    max-width:300; min-width: 300px; 
+    max-height: 480px; min-height: 480px;
+    transform: translateX(10px) translateY(20px);
+}
+        <div class="divCuadroPersonaLanding" id="CuadroPersonaLanding" data-nombre="Persona Ejemplo 1"></div>
+    </div>
+    <footer>
+        <ul class="redesicon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon> </a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon>   </a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
+        </ul>
+        <ul class="menuf">
+            <a class="nav-menu" href="#">Nuestro equipo</a>
+            <a class="nav-menu" href="#">Nuestro Trabajo</a>
+            <a class="nav-menu" href="#">Cotizar</a>
+        </ul>
+    </footer>
+    <!--JavaScript funcionasmiento-->
     <!--JavaScript para cargar descripciones-->
-    <script src="JS/CargarDescripciones.js"></script>
+    <script src="JS/cargarDescripcionesLandingPage.js"></script>
 <!--LInk Para los iconos-->
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
 </html> 
