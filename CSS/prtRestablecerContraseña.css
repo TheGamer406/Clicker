@@ -1,0 +1,31 @@
+.contraseña{
+    text-align: center;
+    margin-top: 60px;
+  
+}
+.imagenPokemon{
+    height: 170px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+}
+#botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.titulos{
+    margin-bottom: 12px;
+}
+#inputs{
+    margin-bottom: 40px;
+    width: 220px;
+    height: 35px;
+    background-color: white;
+}
+.botones button:hover{
+transition: 0,9;
+color: red;
+}

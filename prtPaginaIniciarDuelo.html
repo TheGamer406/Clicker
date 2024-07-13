@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar duelo</title>
+    <!--Estilos-->
+    <link rel="stylesheet" href="CSS/prtEstiloBase.css">
+    <link rel="stylesheet" href="CSS/prtIniciarDuelo.css">
+</head>
+<body>
+    <header>
+        <div class="divMenuIconoCasa">
+            <a href="prtPaginaPrincipal.html"><ion-icon name="home" class="icono"></ion-icon></a>
+        </div>
+        <div class="divMenuNavegacion">
+            <ul class="linkMenuNavegacion">
+                <li><a href="prtPaginaGuiaDeJuego.html">Gu&iacutea de juego</a></li>
+                <li><a href="prtPaginaAjustes.html">Ajustes</a></li>
+                <li><a href="prtPaginaGrupoSocial.html">Social</a></li>
+                <li><a href="prtPaginaDuelos.html">Duelos</a></li>
+                <li><a href="prtPaginaEstadisticas.html">Estad&iacutesticas de juego</a></li>
+                <li><a href="prtPaginaSoporte.html">Soporte</a></li>
+            </ul>
+        </div>
+        <div class="divMenuIconoPerfil">
+            <a href="#" class="icono"><ion-icon name="person"></ion-icon></a>
+            <!--se referencia a la pagina de perfil-->
+        </div>
+        <div>
+            <a href="index.html"><img src="Image/logos/logoPokemon.webp" alt="LogoPokemon" class="logoMenuPokemon"></a>
+        </div>
+    </header>
+       <div class="contenidoPagina">
+        <div class="divPadreBodyContenido">
+        <div class="divBodyContenido">
+       <div class="divVideoDeLaBatalla" id="videoDeLaBatalla">
+           <video  controls autoplay muted >
+               <source src="Image/Recursos/videos/videoIniciarDueloMp4.mp4" type="video/mp4">
+               <source src="Image/Recursos/videos/videoiniciarDueloOgg.ogg" type="video/ogg">
+           </video>
+       </div>
+    <div class="divBtnAtaques" id="divBtnAtaques">
+       <button class="btnAtaques" id="btnAtaque1">Ataque 1</button>
+       <button  class="btnAtaques" id="btnAtaque2">Ataque 2</button>
+       <button class="btnAtaques" id="btnAtaque3">Ataque 3</button>
+       <button class="btnAtaques" id="btnAtaque4">Ataque 4</button>
+    </div>
+    <h2 class="h2TituloCambiarPersonaje" id="tituloCambiarPersonaje">Cambiar personaje:</h2>
+       <div class="divBodyBotones">
+            <button class="btnFinalizarBatalla">Finalizar batalla</button>
+       <div class="divBtnCambiarPersonaje">
+       <button class="btnPersonajes" id="btnPersonaje1"><img src="Image/Recursos/Fotos pk/persoanjeDragapult.png" alt="pokemon Dragapult"></button>
+       <button class="btnPersonajes" id="btnPersonaje2"><img src="Image/Recursos/Fotos pk/personajeCharizard.png" alt=""></button>
+       <button class="btnPersonajes" id="btnPersonaje3"><img src="Image/Recursos/Fotos pk/personajeGengar.png" alt=""></button>
+       <button class="btnPersonajes" id="btnPersonaje4"><img src="Image/Recursos/Fotos pk/personajeGyarados.png" alt=""></button>
+       <button class="btnPersonajes" id="btnPersonaje4"><img src="Image/Recursos/Fotos pk/personajePikachu.png" alt=""></button>
+       <button class="btnPersonajes" id="btnPersonaje4"><img src="Image/Recursos/Fotos pk/personajeSnorlax.png" alt=""></button>
+    </div>
+    </div>
+   </div>
+   <div class="divBodyContenido2">
+       <h1 class="h1TituloInformaciónDeLaPartida">Información de la partida</h1>
+       <h2 class="h2TituloTurno">Turno 1</h2>
+       <div class="chatDelJuego">
+       <label for="">Nombre del usuario: </label>
+       <input type="text" name="iniciarDueloMensajeDelUsuario" id="mensajeDelUsuario" placeholder="Escriba un mensaje...">
+       </div>
+   </div>     
+       </div></div>
+        <footer>
+            <div>
+            <div class="footerContainer">
+                <div class="divLogoFooter">
+                    <img src="IMAGE/logos/clickerLogoCompletoBlanco.webp">
+                </div>
+                <div class="divInfoContactoFooter">
+                    <p>ContactoCLicker@ejemplo.com</p>
+                    <p>+(506) 8575-4896</p>
+                    <p>En tu imaginacion bebe</p>
+                </div>
+                <div class="divRedesFooter">
+                    <a><ion-icon name="logo-tiktok"></ion-icon></a>
+                    <a><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a><ion-icon name="logo-twitch"></ion-icon></a>
+                    <a><ion-icon name="logo-youtube"></ion-icon></a>
+                </div>
+                <div class="divMenuNavegacionFooter">
+                    <ul class="linkMenuNavegacionFooter">
+                        <li><a href="/prtPaginaRegistro.html">Registro</a></li>
+                        <li><a href="/prtPaginaGuiaDeJuego.html">Gu&iacutea de juego</a></li>
+                        <li><a href="#">Ajustes</a></li>
+                        <li><a href="/prtPaginaGrupoSocial.html">Social</a></li>
+                        <li><a href="/prtPaginaIniciarDuelo.html">Duelos</a></li>
+                        <li><a href="/prtPaginaEstadisticas.html">Estad&iacutesticas de juego</a></li>
+                        <li><a href="/prtPaginaRangos.html">Rangos</a></li>
+                        <li><a href="/lpNuestroEquipo.html">Acerca de nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divFooterCopy">
+                <p>&copy; Copyright Clicker 2024</p>
+            </div>
+        </div>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--JavaScripts Propios-->
+        <script src="JS/scriptBase.JS"></script>
+</body>
+</html>

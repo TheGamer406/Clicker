@@ -1,0 +1,49 @@
+
+
+.divBodyImagenEstadisticasPokemon{ /*es para ajustar la imagen hacia la derecha*/
+    display: flex;
+    height: 250px;
+    width: 200px;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 5%;
+   
+}
+.divBodyImagenEstadisticasGrafico{ /*es para ajustar la imagen al inicio al lado izquierdo*/
+    display: flex;
+    height: 300px;
+    margin-top: 4%;
+}
+.divBodyBotones{ /*alienar los botones en forma de pokebola*/
+    display: flex;
+   margin-top: 25%;
+    gap:40px ;
+    justify-content: center;
+   padding: 30px ;
+   margin-block-end: 10px;
+   }
+.divPadreBodyContenido{/*hacer todo el body flex*/
+    display: flex;
+}
+.btnInformacion{ /*hacer los botones com pokebola*/
+    height: 170px;
+    width: 200px;
+    background: linear-gradient(to bottom, red 50%, white 50%);
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px; /* Centra el texto verticalmente */
+
+}
+.btnInformacion a{ /*editar el texto de los botones*/
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: monospace;
+}
+.btnInformacion:hover{
+    box-shadow: 0 0 20px rgb(255, 154, 3);
+}

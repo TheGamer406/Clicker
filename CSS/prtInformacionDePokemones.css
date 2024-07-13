@@ -1,0 +1,38 @@
+
+.divBodyEstadisticasInformacion{ /*para hacer las estadisticas en dos colunmas y una fila*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height:1.5em;
+    gap: 20px;
+    padding: 15px 10px;
+    width: 800px;
+    border-style: ridge;
+    border-width: 10px;
+    margin-top: -2%;
+    border-color:black;
+    margin-left: 1.5%;
+}
+.h1TituloInformacionPokemones{ /*para centrar el titulo*/
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 7px;
+
+}
+.divBodySeleccionDePokemon{/*para alinear a la derecha la seleccion de pokemones*/
+    display: flex;
+    margin-top: 1%;
+    justify-content: flex-end;
+    margin-right:10% ;
+    align-items: center;
+    padding: 10px ;
+}
+
+.divBodyImagenEstadisticasPoekemon{/*ajusta la imagen a la derecha */
+    display: flex;
+    height: 200px;
+    width: 150px;
+    margin-left: 70%;
+    margin-block-end: 5%;
+    margin-top: -15%;
+}

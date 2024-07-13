@@ -1,0 +1,67 @@
+
+.ajustes {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#ajustes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones button {
+    margin-bottom: 45px;
+    width: 220px;
+    height: 40px;
+    background-color: white;
+}
+
+.botones button:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.titulos {
+    margin-bottom: 12px;
+}
+
+#ID{
+    margin-bottom: 45px;
+    width: 220px;
+    height: 40px;
+    background-color: white;
+
+}
+
+#correo{
+
+
+    margin-bottom: 45px;
+    width: 220px;
+    height: 40px;
+    background-color: white;
+}
+#inputs {
+    margin-bottom: 40px;
+    width: 205px;
+    height: 35px;
+    background-color: white;
+}
+
+#inputs:hover {
+    background-color: rgb(233, 53, 53);
+    transition: 0.5s;
+}

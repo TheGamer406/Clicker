@@ -1,0 +1,116 @@
+
+.divBodyImagenDeBienvenida {
+    /*centra la imagen del pokemon*/
+    display: flex;
+    justify-content: center;
+}
+
+#imagenPokemonBienvenida {
+    /*redondea los bordes de la imagen*/
+    border-radius: 15px;
+}
+
+.divBodyContenido {
+    /*ajusta el contenido (informacion y video)*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.divBodyInformaciónDelJuego {
+    /*le da estilo a la informacion*/
+    margin-top: 20px;
+    background-color: #fffff0;
+    border-left: 5px solid #2980b9;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 2%;
+}
+
+.tituloDeLaInformacion {
+    /*baja el titulo de la info*/
+    margin-top: 1%;
+}
+
+.parrafoInformacionDelJuego {
+    /* le da interalineado al parrafo y la baja*/
+    margin-top: 2.5%;
+    line-height: 1.7em;
+}
+
+.divBodyVideo {
+    /*alinea el video de la batalla*/
+    display: flex;
+    margin-right: 5%;
+    height: 250px;
+    width: 470px;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.divBodyInformacionDelJuego2 {
+    /* alinea la informacion de la mision y vision y valores*/
+    gap: 20px;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.parrafoDeLaInformacion {
+    /*alinea el parrafo de la mision y vision*/
+    width: 70%;
+    margin-left: 15%;
+}
+
+.divBodyMisonVision {
+    /* da estilo a la mision y vision*/
+    border-radius: 10px;
+    border: 3px solid #1900ff;
+    width: 70%;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 7%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 7px 25px;
+    margin-block-end: 2%;
+}
+
+.divBodyValores {
+    /*da estilo a los valores*/
+    border-radius: 10px;
+    border: 3px solid #ff0000;
+    width: 70%;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 7%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 7px 25px;
+    margin-block-end: 2%;
+}
+
+.h1TituloDeLaInformacion { /*le da estilo a los titulos de mision, vison y valores */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5),
+        -1px -1px 2px rgba(255, 255, 255, 0.8);
+    display: inline-flex;
+    width: 140px;
+    justify-content: center;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff8a00, #ff0000);
+    opacity: 0.9;
+}
+
+.parrafoDeLosValores { /*justifica el parrafo de los valores*/
+    text-align: justify;
+}
+
+.h2TituloDeLosValores {
+    text-align: justify;
+}
+

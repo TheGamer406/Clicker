@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+}
+
+.username label {
+    margin-right: 10px;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.team {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width: 20%;
+    text-align: left;
+}
+
+.team-header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.pokemon {
+    background-color: #ccc;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 240);
+    color: #000;
+    border-width: 4px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 20px;
+    transform: scale(1.05);
+    transition: 0.4s;
+    display: flex;
+}

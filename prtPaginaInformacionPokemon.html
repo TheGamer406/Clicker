@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base</title>
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/prtEstiloBase.css">
+    <link rel="stylesheet" href="CSS/prtInformacionPokemon.css">
+</head>
+<body>
+    <header>
+        <div class="divMenuIconoCasa">
+            <a href="prtPaginaPrincipal.html"><ion-icon name="home" class="icono"></ion-icon></a>
+        </div>
+        <div class="divMenuNavegacion">
+            <ul class="linkMenuNavegacion">
+                <li><a href="/prtPaginaPrincipal.html">Pagina Principal</a></li>
+                <li><a href="/prtPaginaSoporte.html">Soporte</a></li>
+                <li><a href="#">Ajustes</a></li>
+                <li><a href="/prtPaginaGuiaDeJuego.html">Guía de juego</a></li>
+            </ul>
+        </div>
+        <div class="divMenuIconoPerfil">
+            <a href="#" class="icono"><ion-icon name="person"></ion-icon></a>
+            <!--se referencia a la pagina de perfil-->
+        </div>
+        <div>
+            <a href="InfoPokemon.html"><img src="Image/logos/logoPokemon.webp" alt="LogoPokemon" class="logoMenuPokemon"></a>
+        </div>
+    </header>
+    <!--Ion icon link-->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--JavaScripts Propios-->
+        <script src="JS/scriptBase.JS"></script>
+        
+      <!-- de aquí para arriba es el header-->
+        <div class="contenidoPagina">
+            <div class="contenedorPrincipal">
+                <h1 class="infopokemones"> Información general de los pokemones</h1>
+                   <img class="imagen" src="Image/Recursos/Fotos pk/personajePikachu.png" alt="imagen de referencia donde va el pokemon"> </a>
+                <div class="seleccion">
+                    <p>Seleccione el pokemón:</p>
+                       <select name="seleccionar" id="boton">
+                           <option value="0"> pokemon 1</option> 
+                           <option value="1"> pokemon 2</option>
+                           <option value="2"> pokemon 3</option>
+                       </select>
+                   </div>
+                   <div class="descripcion">
+                       <p> Pikachu es el más popular de los Pokémon. 
+                           Parece un pequeño ratón cubierto con un abrigo amarillo. 
+                           Tiene orejas largas con puntas negras, mejillas redondas 
+                           de un rojo brillante y una cola grande en forma de rayo.
+                           Otra característica distintiva: tiene dos rayas marrones 
+                           horizontales en su parte posterior.
+                       </p>
+                   </div>
+                       <div class="tipos">
+                           <h3 > Tipo del Pokemón:</h3>
+                           <img class="imageDeTipos" src="Image/fondos/Imagen PNG.png" alt="Tipo de pokemon electrico">
+                   </div>
+                 <div class="estadisticas">
+                           <h3>Estadisticas:</h3>    
+                       <ul>
+                        <li> HP: 35</li>
+                        <li> Ataque: 55</li>
+                        <li> Defensa: 40</li>
+                        <li> Velocidad: 90 </li>
+                     </ul>
+                   </div>
+           </div>
+        </div>
+        
+         <!--footer-->
+         <footer>
+            <div>
+            <div class="footerContainer">
+                <div class="divLogoFooter">
+                    <img src="IMAGE/logos/clickerLogoCompletoBlanco.webp">
+                </div>
+                <div class="divInfoContactoFooter">
+                    <p>ContactoCLicker@ejemplo.com</p>
+                    <p>+(506) 8575-4896</p>
+                    <p>En tu imaginacion bebe</p>
+                </div>
+                <div class="divRedesFooter">
+                    <a><ion-icon name="logo-tiktok"></ion-icon></a>
+                    <a><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a><ion-icon name="logo-twitch"></ion-icon></a>
+                    <a><ion-icon name="logo-youtube"></ion-icon></a>
+                </div>
+                <div class="divMenuNavegacionFooter">
+                    <ul class="linkMenuNavegacionFooter">
+                        <li><a href="/prtPaginaRegistro.html">Registro</a></li>
+                        <li><a href="/prtPaginaGuiaDeJuego.html">Gu&iacutea de juego</a></li>
+                        <li><a href="#">Ajustes</a></li>
+                        <li><a href="/prtPaginaGrupoSocial.html">Social</a></li>
+                        <li><a href="/prtPaginaIniciarDuelo.html">Duelos</a></li>
+                        <li><a href="/prtPaginaEstadisticas.html">Estad&iacutesticas de juego</a></li>
+                        <li><a href="/prtPaginaRangos.html">Rangos</a></li>
+                        <li><a href="/lpNuestroEquipo.html">Acerca de nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divFooterCopy">
+                <p>&copy; Copyright Clicker 2024</p>
+            </div>
+        </div>
+        </footer> 
+
+</body>
+</html>

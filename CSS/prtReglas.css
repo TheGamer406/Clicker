@@ -1,0 +1,52 @@
+
+
+.divBodyReglas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 40px;
+}
+
+.divConjuntoReglas{
+    background-color: #d4dbe1;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 250px;
+    height: 850px;
+    padding: 25px;
+    position: relative;
+}
+
+.divTituloReglas {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 3px 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.divListaReglas {
+    padding-left: 20px;
+    margin: 8px;
+}
+
+.divImagenReglas {
+    width: 95%;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+
+.divImagenReglas::after {
+    content: "Imagen";
+    color: #000;
+    font-size: 12px;
+}

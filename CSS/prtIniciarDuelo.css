@@ -1,0 +1,121 @@
+
+
+.divPadreBodyContenido{
+    display: flex;      /*este div contiene al div divBodyContenido y divBodyContenido2, se usa para alinear los dos al lado uno y del otro*/
+}
+.divBodyBotones{  /*contiene los botones del cambio de personajes y finalizar la batalla*/
+    display: flex;
+}
+.divVideoDeLaBatalla{
+    display: flex; /* el video es temporal, este es una simulación de la batalla*/
+height: 450px;
+width: 400px;
+}
+.divBtnAtaques{ /*se usa para alinearlos al centro y darle un alto */
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+.btnAtaques{ /* se usa para darle estilo a los botones de los ataques*/
+    background-color: rgb(252, 244, 175);
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    margin: 7px 50px;
+    padding: 7px 12px;
+    background: linear-gradient(45deg, #ff0000, #ffcc33); /*cambiar de acuerdo a la paleta de colores*/
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnAtaques:hover{ /* se usa para darle efectos a los botones*/
+    border-radius: 180px;
+    background-color: #e7e7e7;
+    border: none;
+    cursor: pointer;
+    transition:  0.3s ease;
+    transform: scale(1.5);
+}
+#btnPersonaje1{ /*darle un color más oscuro al pokemon que está en uso*/
+    background-color: rgb(190, 189, 189);
+}
+.divBtnCambiarPersonaje{
+    display: grid; /*se usa para separar los botones en 3 columnas y 2 filas */
+    margin: 12px 30px;
+    width: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 5px;
+}
+.btnPersonajes:hover{
+    background-color: #dad9d9;
+}
+.btnPersonajes{ /*para darle estilo a los botones de los personajes*/
+    border:groove;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+.btnPersonajes img{ /*para ajustar el tamaño de las imagenes dentro de los botones*/
+    height: 50px;
+    width: 60px;
+}
+.btnFinalizarBatalla{/*para alinear y darle estilo al boton de finalizar batalla*/
+    display: flex;
+    margin: 60px 25px;
+  background-color: #ffbc04;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: black;
+  width: 150px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.btnFinalizarBatalla:hover{/*para darle animación al boton de finalizar la batalla*/
+    background-color: #ff0000;
+    border: none;
+    cursor: pointer;
+    transition:  0.3s ease;
+    transform: scale(1.2);
+    color: #ffffff;
+}
+.divBodyContenido2{/*el el contenido del lado derecho(info de la partida, mensaje y el turno), es para alinear y darle estilo*/
+    border:groove;
+    border-color: #000;
+    margin-top: 5px;
+    width: 500px;
+    margin-block-end: 5px;
+}
+
+.divBodyContenido{
+    width: 830px;
+    margin-top: 5px;
+}
+.h1TituloInformaciónDeLaPartida{ /*alinear el titulo de informacion de partida */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin: 110px 25px;
+}
+.h2TituloTurno{/*alinear y darle estilo al titulo de turno*/
+display: flex;
+background-color: #000;
+color: #fff;
+justify-content: center;
+height: 40px;
+align-items: center;
+}
+.chatDelJuego{ /*alinear el chat*/
+    display: flex;
+    justify-items: start;
+    justify-content:flex-start;
+    margin-top: 70%;
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+

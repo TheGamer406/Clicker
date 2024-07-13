@@ -1,0 +1,53 @@
+
+.imagen{
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    height: 300px;
+    width: 350px;
+}
+.seleccion{
+   text-align: right;
+    margin-left: 70%;
+   margin-top: -290px;
+   display: flex;
+  gap: 20px; 
+}
+.container {
+    animation: fadeIn 1s ease-in-out;
+}
+select{
+animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.descripcion{
+    width: 450px; 
+    height: 90px; 
+    border: 1px solid #000; 
+    padding: 10px; 
+    text-align: center;
+    margin-left: 435px;
+    margin-top: 310px;
+   
+}
+.tipos{
+    margin-top: -120px;
+    margin-left: 44px;  
+}
+.imageDeTipos{
+    width: 150px;
+    height: 100px;
+}
+.estadisticas{
+margin-left: 78%;
+margin-top: -110px;
+}

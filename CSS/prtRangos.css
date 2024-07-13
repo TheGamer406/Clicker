@@ -1,0 +1,69 @@
+
+.divRangosHeader{
+        text-align: center;
+        justify-content: center;
+        font-size: 25px;
+        border-radius: 10px;
+        background-color: rgb(252, 244, 175);
+        background: linear-gradient(45deg, #ff0000, #ffcc33);
+        padding-left: 0%; 
+        width: 15%;  
+        margin: auto;
+        margin-top: 2%;   
+        margin-left: 40%;
+        
+    }
+
+    
+
+    .divFormBuscar{
+        margin-left: 30px;
+        size: 20%;
+    }
+
+    
+.menuListaHeader{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+.divHeaderRango{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    margin-left: -120px;
+    
+}
+
+.divHeaderMejorPok{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    margin-left: -30px;
+}
+
+.TablaContainer {
+    width: 100%;
+    display: flex;
+    margin-right: 50%;
+    font-size: 150%;
+}
+
+.divTabla {
+    display: inline-block;
+    width: 35%; /* Ajusta el ancho*/
+    margin-right: 40px; /* Margen entre las tablas */
+    margin-left: 80px;
+}
+
+.tabla-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

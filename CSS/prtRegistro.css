@@ -1,0 +1,49 @@
+
+
+.contraseña{
+    text-align: center;
+    margin-top: 60px;
+  
+}
+.imagenPokemon{
+    height: 170px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+}
+
+.divRegistroForm {
+    width: 420px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 37%;
+    margin-bottom: 5%;
+    
+    
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(252, 244, 175);
+    background: linear-gradient(45deg, #ff0000, #ffcc33);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: rgb(252, 244, 175);
+}

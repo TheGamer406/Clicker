@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social</title>
+    <!-- Vinculación del archivo CSS para los estilos -->
+     <link rel="stylesheet" href="CSS/prtEstiloBase.css">
+    <link rel="stylesheet" href="CSS/prtGrupoSocial.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <div class="divMenuIconoCasa">
+            <a href="prtPaginaPrincipal.html"><ion-icon name="home" class="icono"></ion-icon></a>
+        </div>
+        <div class="divMenuNavegacion">
+            <ul class="linkMenuNavegacion">
+                <li><a href="prtPaginaRegistro.html" class="paginaActual_">Registro</a></li>
+                <li><a href="prtPaginaGuiaDeJuego.html">Gu&iacutea de juego</a></li>
+                <li><a href="prtPaginaAjustes.html">Ajustes</a></li>
+                <li><a href="#">Social</a></li>
+                <li><a href="prtPaginaDuelos.html">Duelos</a></li>
+                <li><a href="prtPaginaEstadisticas.html">Estad&iacutesticas de juego</a></li>
+                <li><a href="prtPaginaRangos.html">Rangos</a></li>
+                <li><a href="prtPaginaSoporte.html">Soporte</a></li>
+            </ul>
+        </div>
+        <div class="divMenuIconoPerfil">
+            <a href="prtPaginaEditarPerfil.html" class="icono"><ion-icon name="person"></ion-icon></a>
+            <!--se referencia a la pagina de perfil-->
+        </div>
+        <div>
+            <a href="prtPaginaPrincipal.html"><img src="Image/logos/logoPokemon.webp" alt="LogoPokemon" class="logoMenuPokemon"></a>
+        </div>
+    </header>
+
+    <!-- Enlace a los íconos de Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Vinculación del archivo JavaScript -->
+    <script src="GrupoSocial.js"></script>
+
+    <!-- Contenedor principal para estadísticas de usuario y amigos -->
+    <div class="contenidoPagina">
+        <div class="gruposocialcontainer">
+            <!-- Sección de estadísticas de usuario -->
+            <div class="estadisticasUsuario">
+                <ol>
+                    <li>Batallas Jugadas</li>
+                    <li>Partidas Ganadas </li>
+                    <li>Partidas perdidas</li>
+                    <li>Promedio V/D</li>
+                    <li>Pokémon Favorito</li>
+                    <li>Pokémones utilizados</li>
+                </ol>
+            </div>
+            <!-- Sección para buscar y listar amigos -->
+            <div class="CentroAmigos">
+                <div class="buscaramigos">
+                    <input type="text" placeholder="Buscar Amigos..." id="buscar">
+                </div>
+                <div class="ListaAmigos">
+                    <ul id="listaDeAmigos">
+                        <li class="amigo" data-nombre="Pikachu">
+                            Pikachu
+                            <div class="menuAmigo">
+                                <ul>
+                                    <li>Perfil</li>
+                                    <li>Estadísticas</li>
+                                    <li>Duelo</li>
+                                    <li>Eliminar amigo</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Sección para amigos frecuentes y bloquear usuarios -->
+            <div class="SeccionAmigosBloqueados">
+                <div class="AmigosFrecuentes">
+                    <h1>Amigos frecuentes</h1>
+                </div>
+                <div class="BloquearUsuarios">
+                    <h1>Usuarios bloqueados</h1>
+                    <input type="text" placeholder="Bloquear usuario...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pie de página -->
+    <footer>
+        <div>
+        <div class="footerContainer">
+            <div class="divLogoFooter">
+                <img src="IMAGE/logos/clickerLogoCompletoBlanco.webp">
+            </div>
+            <div class="divInfoContactoFooter">
+                <p>ContactoCLicker@ejemplo.com</p>
+                <p>+(506) 8575-4896</p>
+                <p>En tu imaginacion bebe</p>
+            </div>
+            <div class="divRedesFooter">
+                <a><ion-icon name="logo-tiktok"></ion-icon></a>
+                <a><ion-icon name="logo-facebook"></ion-icon></a>
+                <a><ion-icon name="logo-twitch"></ion-icon></a>
+                <a><ion-icon name="logo-youtube"></ion-icon></a>
+            </div>
+            <div class="divMenuNavegacionFooter">
+                <ul class="linkMenuNavegacionFooter">
+                    <li><a href="/prtPaginaRegistro.html">Registro</a></li>
+                    <li><a href="/prtPaginaGuiaDeJuego.html">Gu&iacutea de juego</a></li>
+                    <li><a href="#">Ajustes</a></li>
+                    <li><a href="/prtPaginaGrupoSocial.html">Social</a></li>
+                    <li><a href="/prtPaginaIniciarDuelo.html">Duelos</a></li>
+                    <li><a href="/prtPaginaEstadisticas.html">Estad&iacutesticas de juego</a></li>
+                    <li><a href="/prtPaginaRangos.html">Rangos</a></li>
+                    <li><a href="/lpNuestroEquipo.html">Acerca de nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="divFooterCopy">
+            <p>&copy; Copyright Clicker 2024</p>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>

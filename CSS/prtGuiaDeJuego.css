@@ -1,0 +1,104 @@
+
+.divTituloGuiadejuego{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.divbodyGuiadejuego {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 85vh;
+}
+
+.divColumna-izquierda, .divColumna-derecha{
+    background-color: #e0e0e0;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    min-height: 80vh;
+    margin: 70px;
+}
+
+.divColumna-centro {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divHeader, .divFooter {
+    background-color: #000;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.divFooter{
+    position: relative;
+    top: 350px;
+}
+
+.divHeader{
+    position: relative;
+    top: -10px;
+}
+
+.divContenido {
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.image1{
+    position: relative;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 50px;
+}
+.image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: auto;
+}
+
+.btnEntrarReglas {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.btnEntrarInformacionpokemon {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+
+.btnEntrarInformacionpokemon:hover {
+    background-color: red;
+}
+.btnEntrarReglas:hover {
+    background-color: red;
+}

@@ -1,0 +1,108 @@
+.divSeparadorlandingCotizar{
+    height: 50px;
+}
+.h1TituloFormCotizarLanding{
+    font-size:20px;
+    text-indent: 10%;
+}
+.formCotizarLanding{
+    width: 40%;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 8px 9px 20px #ebebeb;
+    margin: 0 15px;
+    min-height: 100px;
+}
+.divContainerFormCotizarLanding{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.divContainerFormCotizarLanding input{
+    outline: none;
+    height: 30px;
+    border-width: 0 0 1px 0;
+    border-color: #C852BA;
+    background-color: transparent;
+    border-radius: 8px;
+    text-indent: 7px;
+}
+.divContainerFormCotizarLanding input:hover{
+    border-color: #df19c8;
+}
+.divContainerFormCotizarLanding input:focus {
+    border-color: #FAA819;
+}
+.divContainerFormCotizarLanding label{
+    font-size: 16px;
+    margin: 5px;
+}
+.divContainerFormCotizarLanding button{
+    background-color: #C852BA;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.slcPuestoTrabajoFormCotizarLanding{
+    outline: none;
+    height: 30px;
+    border-width: 0 0 1px 0;
+    border-color: #C852BA;
+    background-color: transparent;
+    border-radius: 8px;
+    text-indent: 7px;
+}
+.slcPuestoTrabajoFormCotizarLanding option{
+    background-color: #faa819;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px;
+}
+.slcPuestoTrabajoFormCotizarLanding:focus {
+    outline: none;
+    border-color: #FAA819;
+}
+.pMensajeFormCotizarLanding{
+    text-align: center;
+    color: #5a5a5a;
+}
+.pMensajeFormCotizarLandingInvalido{
+    color: red;
+}
+.pMensajeFormCotizarLandingValido{
+    color: green;
+}
+.pDescripcionClicker{
+    text-wrap: wrap;
+    text-align: left;
+    text-indent: 30px;
+    width: 1000px;
+    font-size: 15px;
+}
+/*Acomodo form cotizar*/
+.divRowFormCotizarLanding{
+    display: flex;
+    align-items: center;
+}  
+.gap{
+    gap: 30px
+}
+/*tamaño inputs*/
+.xl{
+    min-width: 350px;
+}
+.l{
+    min-width: 250px;
+}
+.m{
+    min-width: 200px;
+}
+.s{
+    min-width: 100px;
+}
+.ss{
+    min-width: 50px;
+}
+.short{
+    min-width: 20px;
+}

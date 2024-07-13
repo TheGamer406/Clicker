@@ -1,0 +1,64 @@
+/*Paleta de colores*/
+#noexist{
+    color: #221F1F;/*Para negros*/
+    color: #F6F4F4;/*Fondo blanco no blanco*/
+    color: #C852BA;
+    color: #CA6CE6;
+    color: #FAA819;
+    color: #FCB415;
+ }
+
+/*estilo base del menu de navegacion*/
+.nav-menu{
+    text-decoration: none; 
+    font-weight: 600;
+    font-size: 19px;
+    margin: 0px 20px;
+}
+/*estilo nav-menu header*/
+.etiquetas .nav-menu{
+    color:#ebebeb;
+}
+.etiquetas .nav-menu:hover { 
+    font-weight: 700;
+    color:#FAA819;
+}
+.etiquetas .nav-menu:active{
+    color: #CA6CE6;
+}
+/*Estilos nav-menu footer*/
+.menuf .nav-menu{
+    color: #ebebeb;
+    opacity: 0.8;
+}
+.menuf .nav-menu:hover{
+    color: #fff;
+    opacity: 100%;
+}
+.menuf .nav-menu:active{
+    color:#CA6CE6;
+}
+/*Estilo de los botones de redes sociales*/
+.redesicon{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.redesicon li {
+    list-style: none;
+}
+.redesicon li a{
+    font-size: 2em;
+    color: #ebebeb;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.redesicon li a:hover{
+    transform: scale(1.3);
+}
+.redesicon li a:active{
+    color: #CA6CE6;
+}

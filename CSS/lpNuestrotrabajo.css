@@ -1,0 +1,22 @@
+.btnAlProyecto{
+    background-color: #C852BA;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 8px 9px 40px #ebebeb;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 20px;
+}
+.btnAlProyectoj:hover{
+    background-color: #e739d3;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 11px 20px #ebebeb;
+}
+.btnAlProyecto:active{
+    background-color: #FAA819;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: -6px -7px 20px #ebebeb;
+}
+

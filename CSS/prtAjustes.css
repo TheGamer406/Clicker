@@ -1,0 +1,35 @@
+
+.infopokemones{
+    margin-top: 50px;
+    text-align: center;
+}
+/*de aquí para arriba es el header*/
+
+.ajustes{
+    text-align: center;
+    margin-top: 60px;
+  
+}
+.imagenClicker{
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
+.botones{
+    display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-items: center;
+      padding-top: 40px;
+
+}
+.botones button{
+    margin-bottom: 45px;
+    width: 220px;
+    height: 50px;
+    background-color: white;
+}
+.botones button:hover{
+    background-color: red;
+    transition: 0.5s;
+}

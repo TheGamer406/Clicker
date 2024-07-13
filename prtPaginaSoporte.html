@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte</title>
+    <!--Estilos-->
+    <link rel="stylesheet" href="CSS/prtEstiloBase.css">
+    <link rel="stylesheet" href="CSS/prtSoporte.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="divMenuIconoCasa">
+            <a href="prtPaginaPrincipal.html"><ion-icon name="home" class="icono"></ion-icon></a>
+        </div>
+        <div class="divMenuNavegacion">
+            <ul class="linkMenuNavegacion">
+                <li><a href="prtPaginaGuiaDeJuego.html">Guia de juego</a></li>
+                <li><a href="prtPaginaAjustes.html">Ajustes</a></li>
+                <li><a href="prtPaginaSoporte.html">Social</a></li>
+                <li><a href="prtLandingNuestroEquipo.html">Acerca de nosotros</a></li>
+            </ul>
+        </div>
+        <div class="divMenuIconoPerfil">
+            <a href="prtPaginaEditarPerfil.html" class="icono"><ion-icon name="person"></ion-icon></a>
+            <!--se referencia a la pagina de perfil-->
+        </div>
+        <div>
+            <a href="prtPaginaPrincipal.html"><img src="Image/logos/logoPokemon.webp" alt="LogoPokemon" class="logoMenuPokemon"></a>
+        </div>
+    </header>
+
+    <div class="contenidoPagina">
+        <div class="divContenedorSoporte">
+            <div class="divContenedor-izq">
+                <h2><i class='bx bxl-whatsapp'></i> Como Contactarnos</h2>
+                <p><strong>Número de WhatsApp:</strong> <span id="whatsapp">(+506) 7005-6174</span></p>
+                <p><strong>Correo Electrónico:</strong> <a href="mailto:tuemail@gmail.com"><i class='bx bxl-gmail'></i> tuemail@gmail.com</a></p>
+                <p><strong>Número Telefónico:</strong> <span id="telefono">(+506) 7005-6174 </span></p>
+            </div>
+            <div class="divImagenSoporte"><img src="Image/Recursos/Fotos pk/psidock.jpg" alt="Psidock"></div>
+            <div class="divContenedor-der">
+                <h2><i class='bx bx-help-circle'></i> Preguntas Frecuentes</h2>
+                <div class="faq">
+                    <a href="#" onclick="showFaq('faq1')">¿Cómo puedo editar mi equipo Pokémon?</a>
+                    <a href="#" onclick="showFaq('faq2')">¿Cómo puedo restablecer mi contraseña?</a>
+                    <a href="#" onclick="showFaq('faq3')">¿Cómo puedo editar mi perfil?</a>
+                    <a href="#" onclick="showFaq('faq4')">¿Cómo puedo iniciar una batalla Pokémon?</a>
+                </div>
+                <h2><i class='bx bx-time-five'></i> Horario de Atención</h2>
+                <div class="divhorarioSoporte">
+                    <p>De Lunes a Viernes:</p>
+                    <p>DE 7 am A 5 pm</p>
+                    <p>Sábados y Domingos:</p>
+                    <p>DE 8 am A 12 md</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modal para FAQ -->
+        <div id="faqModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeFaq()">&times;</span>
+                <p id="faqText"></p>
+            </div>
+        </div>
+    
+    </div>
+    <script src="JS/soporteJs.js"></script>
+
+    <!--Ion icon link-->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--JavaScripts Propios-->
+        <script src="JS/scriptBase.JS"></script>
+        <footer>
+            <div>
+            <div class="footerContainer">
+                <div class="divLogoFooter">
+                    <img src="Image/logos/clickerLogoCompletoBlanco.webp" alt="">
+                </div>
+                <div class="divInfoContactoFooter">
+                    <p>clicker2024@hotmail.com</p>
+                    <p>+(506) 8575-4896</p>
+                    <p>San José, Costa Rica, 250m oeste del Mall San Pedro</p>
+                </div>
+                <div class="divRedesFooter">
+                    <a><ion-icon name="logo-tiktok"></ion-icon></a>
+                    <a><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a><ion-icon name="logo-twitch"></ion-icon></a>
+                    <a><ion-icon name="logo-youtube"></ion-icon></a>
+                </div>
+                <div class="divMenuNavegacionFooter">
+                    <ul class="linkMenuNavegacionFooter">
+                        <li><a href="/prtPaginaRegistro.html">Registro</a></li>
+                        <li><a href="/prtPaginaGuiaDeJuego.html">Gu&iacutea de juego</a></li>
+                        <li><a href="#">Ajustes</a></li>
+                        <li><a href="/prtPaginaGrupoSocial.html">Social</a></li>
+                        <li><a href="/prtPaginaIniciarDuelo.html">Duelos</a></li>
+                        <li><a href="/prtPaginaEstadisticas.html">Estad&iacutesticas de juego</a></li>
+                        <li><a href="/prtPaginaRangos.html">Rangos</a></li>
+                        <li><a href="/lpNuestroEquipo.html">Acerca de nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divFooterCopy">
+                <p>&copy; Copyright Clicker 2024</p>
+            </div>
+        </div>
+        </footer> 
+</body>
+</html>

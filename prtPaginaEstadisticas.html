@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas</title>
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/prtEstiloBase.css">
+    <link rel="stylesheet" href="CSS/prtEstadisticas.css">
+</head>
+<body>
+    <header>
+        <div class="divMenuIconoCasa">
+            <a href="prtPaginaPrincipal.html"><ion-icon name="home" class="icono"></ion-icon></a>
+        </div>
+        <div class="divMenuNavegacion">
+            <ul class="linkMenuNavegacion">
+                <li><a href="prtPaginaGuiaDeJuego.html">Gu&iacutea de juego</a></li>
+                <li><a href="prtPaginaAjustes.html">Ajustes</a></li>
+                <li><a href="prtPaginaGrupoSocial.html">Social</a></li>
+                <li><a href="prtPaginaInformacionDePartidas.html">Información de partidas</a></li>
+                <li><a href="prtPaginaInformacionDePokemones.html">Información de pokémones</a></li>
+                <li><a href="prtPaginaSoporte.html">Soporte</a></li>
+            </ul>
+        </div>
+        <div class="divMenuIconoPerfil">
+            <a href="prtPaginaEditarPerfil.html" class="icono"><ion-icon name="person"></ion-icon></a>
+            <!--se referencia a la pagina de perfil-->
+        </div>
+        <div>
+            <a href="prtPaginaPrincipal.html"><img src="Image/logos/logoPokemon.webp" alt="LogoPokemon" class="logoMenuPokemon"></a>
+        </div>
+    </header>
+    <div class="contenidoPagina">
+        <div class="divPadreBodyContenido"><!--este es el padre todo la informacion del body-->
+
+            <div class="divBodyImagenEstadisticasGrafico"><!--contiene la imagen del grafico-->
+                <img src="Image/Recursos/Fotos pk/graficoEstadisticas.png" alt="">
+            </div>
+            <div class="divBodyBotones"><!--contiene los botones de hipervinculo-->
+                <button class="btnInformacion" id="btnInformacionPartidas"><a href="prtPaginaInformacionDePartidas.html">Información de partidas</a></button>
+                <button class="btnInformacion" id="btnInformacionPokemones"><a href="prtPaginaInformacionDePokemones.html">Información de Pokémones</a></button>
+            </div>
+            <div class="divBodyImagenEstadisticasPokemon"><!--contiene la imagen del pokemon con las estadisticas-->
+            <img src="Image/Recursos/Fotos pk/estadisticasPokemon.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+        <div class="footerContainer">
+            <div class="divLogoFooter">
+                <img src="Image/logos/clickerLogoCompletoBlanco.webp" alt="">
+            </div>
+            <div class="divInfoContactoFooter">
+                <p>clicker2024@hotmail.com</p>
+                <p>+(506) 8575-4896</p>
+                <p>San José, Costa Rica, 250m oeste del Mall San Pedro</p>
+            </div>
+            <div class="divRedesFooter">
+                <a><ion-icon name="logo-tiktok"></ion-icon></a>
+                <a><ion-icon name="logo-facebook"></ion-icon></a>
+                <a><ion-icon name="logo-twitch"></ion-icon></a>
+                <a><ion-icon name="logo-youtube"></ion-icon></a>
+            </div>
+            <div class="divMenuNavegacionFooter">
+                <ul class="linkMenuNavegacionFooter">
+                    <li><a href="/prtPaginaRegistro.html">Registro</a></li>
+                    <li><a href="/prtPaginaGuiaDeJuego.html">Gu&iacutea de juego</a></li>
+                    <li><a href="#">Ajustes</a></li>
+                    <li><a href="/prtPaginaGrupoSocial.html">Social</a></li>
+                    <li><a href="/prtPaginaIniciarDuelo.html">Duelos</a></li>
+                    <li><a href="/prtPaginaEstadisticas.html">Estad&iacutesticas de juego</a></li>
+                    <li><a href="/prtPaginaRangos.html">Rangos</a></li>
+                    <li><a href="/lpNuestroEquipo.html">Acerca de nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="divFooterCopy">
+            <p>&copy; Copyright Clicker 2024</p>
+        </div>
+    </div>
+    </footer> 
+    <!--Ion icon link-->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--JavaScripts Propios-->
+        <script src="JS/scriptBase.JS"></script>
+</body>
+</html>

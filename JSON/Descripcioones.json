@@ -1,17 +1,20 @@
 {
     "personas": [
         {
-            "nombre": "Persona Ejemplo 1",
-            "puesto": "Puesto Trabajador",
-            "imagen": "../IMAGE/Recursos/imagen_persona_ejemplo.jpg",
+            "nombre": "Ariela Jimenez",
+            "puesto": "Coordinadora General ",
+            "imagen": "../IMAGE/Recursos/fotosEquipo/ariela.jpg",
             "alt":"foto de ejemplo",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "descripcion": "Técnica media en informática empresarial, cursando la carrera de Ingeniería en Software en la Universidad Cenfotec. Me considero una persona proactiva, ya que estoy en constante aprendizaje, soy líder porque tengo una gran capacidad de resolución de conflictos, además de ser responsable y empática. El trabajo en equipo, la comunicación, adaptabilidad,  la creatividad y la ética son características principales que me definen como persona, al igual que la desconfianza y perfeccionismo son mis debilidades. Algunas de mis habilidades duras son la programación en Java y Python, además del desarrollo web en HTML, CSS y Javascript.",
             "redes":{
-                "linkedin":["logo-linkedin",""],
-                "github":["logo-github",""],
-                "instagram":["logo-instagram",""],
-                "facebook":["logo-facebook",""]
+                "github":["logo-github","https://github.com/Arielajr15"],
+                "instagram":["logo-instagram","https://www.instagram.com/arielajr_15?igsh=cW5jOXpseGxyOHN0"]
             }
+        }
+    ],
+    "clicker":[
+        {
+            "descripcion": "En Clicker, nos destacamos como una empresa de desarrollo de páginas web y software comprometida con la excelencia y la satisfacción del cliente. Nuestro equipo está conformado por estudiantes talentosos que combinan sus conocimientos frescos y actualizados con una fuerte ética de trabajo y profesionalismo. Nos enorgullecemos de ser leales y dedicados a cada proyecto, asegurando que nuestros clientes reciban atención personalizada y resultados que superen sus expectativas. La rapidez es una de nuestras principales fortalezas. Entendemos la importancia de los plazos en el mundo empresarial, por lo que trabajamos de manera eficiente para entregar proyectos en tiempos récord sin comprometer la calidad. Además, ofrecemos precios altamente competitivos, lo que nos convierte en una opción accesible y atractiva en el mercado. Elegir Clicker significa optar por una empresa que valora la innovación, la calidad y la satisfacción del cliente. Estamos aquí para transformar tus ideas en soluciones digitales efectivas y asequibles, asegurando que tu negocio esté siempre un paso adelante en el entorno digital."
         }
     ]
 }
